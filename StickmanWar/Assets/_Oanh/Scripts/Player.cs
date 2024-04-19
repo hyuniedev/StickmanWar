@@ -5,7 +5,9 @@ using UnityEngine;
 public class Player : Character
 {   
     private Vector3 targetPosition;
-    // [SerializeField] Transform target;
+    
+    public Enemy enemy;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -21,4 +23,13 @@ public class Player : Character
     public void move(float x){
         targetPosition = new Vector3(transform.position.x + x, transform.position.y , 0);
     }
+    
+    public void moveToEnemy(){
+        Debug.Log("GGG");
+        transform.position = enemy.transform.position;
+    }
+
+    
+    
+    
 }
