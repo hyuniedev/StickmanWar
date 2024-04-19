@@ -4,19 +4,23 @@ using UnityEngine;
 
 public class Enemy : Character
 {
-    // Start is called before the first frame update
-    void Start()
-    {
+    private State stateEnemy;
+    public void changState(State newState){
+        if(stateEnemy!=null){
+            stateEnemy.OnExit();
+        }
+        stateEnemy = newState;
+        if(stateEnemy!=null){
+            stateEnemy.OnExit();
+        }
+    }
+    private void OnEnable() {
         
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+    private void Start() {
+        eCharacter = ECharacter.Enemy;
     }
-    private Vector3 offset = new Vector3(3,0,0);
-    public void nakika(){
-        transform.position = Vector3.Lerp(transform.position, transform.position + offset, Time.deltaTime);
+    private void OnDead(){
+        QueueEnemy.Instance.addEnemy(this);
     }
 }

@@ -14,6 +14,7 @@ public class QueueEnemy{
     }
     private Queue<Enemy> enemyQueue = new Queue<Enemy>();
     public void addEnemy(Enemy enemy){
+        enemy.gameObject.SetActive(false);
         enemyQueue.Enqueue(enemy);
     }
     public Enemy getEnemy(){

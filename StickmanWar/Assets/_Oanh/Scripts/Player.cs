@@ -7,7 +7,7 @@ public class Player : Character
     // Start is called before the first frame update
     void Start()
     {
-        
+        eCharacter = ECharacter.Player;
     }
 
     // Update is called once per frame
