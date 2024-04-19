@@ -5,6 +5,16 @@ using UnityEngine;
 public class Enemy : Character
 {
     private State stateEnemy;
+    
+    private void OnEnable() {
+        changState(new StateMove(this));
+    }
+    private void Start() {
+        eCharacter = ECharacter.Enemy;
+    }
+    private void Update() {
+        if(stateEnemy!=null) stateEnemy.OnExecute();
+    }
     public void changState(State newState){
         if(stateEnemy!=null){
             stateEnemy.OnExit();
@@ -14,11 +24,8 @@ public class Enemy : Character
             stateEnemy.OnExit();
         }
     }
-    private void OnEnable() {
-        
-    }
-    private void Start() {
-        eCharacter = ECharacter.Enemy;
+    public void MoveToPlayer(){
+
     }
     private void OnDead(){
         QueueEnemy.Instance.addEnemy(this);
