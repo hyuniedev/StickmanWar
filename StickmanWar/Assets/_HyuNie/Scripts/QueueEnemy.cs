@@ -18,6 +18,10 @@ public class QueueEnemy{
         enemyQueue.Enqueue(enemy);
     }
     public Enemy getEnemy(){
-        return enemyQueue.Dequeue();
+        if(enemyQueue.Count > 0){
+            return enemyQueue.Dequeue();
+        }else{
+            return null;
+        }
     }
 }

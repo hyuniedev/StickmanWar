@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3303664817179008701}
   - component: {fileID: 6640929261082242016}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,8 @@ GameObject:
   m_Component:
   - component: {fileID: 805305992558150301}
   - component: {fileID: 4987560050265733777}
-  m_Layer: 0
+  - component: {fileID: 5985749830934459280}
+  m_Layer: 6
   m_Name: Enemy_Test
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -152,3 +153,15 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 2}
   m_Direction: 0
+--- !u!114 &5985749830934459280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3147845253341286280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ef1b7d1a2dcbf146a7208f841e63036, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
