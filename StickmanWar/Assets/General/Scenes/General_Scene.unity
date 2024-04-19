@@ -348,7 +348,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 362118322}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1571350783}
+        m_TargetAssemblyTypeName: EventButton, Assembly-CSharp
+        m_MethodName: buttonMove_Left
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &362118322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -683,7 +695,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 978185258}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1571350783}
+        m_TargetAssemblyTypeName: EventButton, Assembly-CSharp
+        m_MethodName: buttonMove_Right
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &978185258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -804,7 +828,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1244913397}
   - component: {fileID: 1244913396}
-  - component: {fileID: 1244913395}
+  - component: {fileID: 1244913398}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -812,18 +836,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1244913395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1244913394}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45479f75bfc9de54aaae9889d76195cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1244913396
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -891,6 +903,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1244913398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244913394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c0a542ecb7b12041a1aab451d74a54b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1318253510
 GameObject:
   m_ObjectHideFlags: 0
@@ -1008,6 +1032,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1571350782}
+  - component: {fileID: 1571350783}
   - component: {fileID: 1571350781}
   - component: {fileID: 1571350780}
   - component: {fileID: 1571350779}
@@ -1102,6 +1127,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1571350783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571350778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5908da8ebcb37db4cb4f2ddac076cff8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1244913398}
 --- !u!1 &2128852456
 GameObject:
   m_ObjectHideFlags: 0
