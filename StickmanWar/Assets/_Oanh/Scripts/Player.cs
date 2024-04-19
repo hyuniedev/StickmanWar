@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : Character
 {
+    [SerializeField] Transform target;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,6 @@ public class Player : Character
         
     }
     public void move(){
-        
+        Vector3 direction= Vector3.MoveTowards(transform.position,target.position,Time.deltaTime);
     }
 }
