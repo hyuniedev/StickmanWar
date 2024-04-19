@@ -18,12 +18,15 @@ public class Look : MonoBehaviour
     void Update()
     {
         Debug.Log(isLook);
-    }
-    public void OnTriggerEnter2D(Collider2D collision){
-        if(collision.gameObject.tag.Equals("Enemy")){
-            Debug.Log("DD");
-            isLook=true;
+        if(Input.GetKeyDown(KeyCode.Space)){
+            isLook = true;
         }
-
+    }
+    private void OnTriggerEnter2D(Collider2D other) {
+        Debug.Log(other.gameObject.tag);
+        if(other.gameObject.tag.Equals("Enemy")){
+            isLook = true;
+            Debug.Log("HHH");
+        }
     }
 }
