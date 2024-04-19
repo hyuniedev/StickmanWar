@@ -14,18 +14,18 @@ public class Enemy : Character
     }
     private void Update() {
         if(stateEnemy!=null) stateEnemy.OnExecute();
+        if(Heart<=0) OnDead();
     }
     public void changState(State newState){
-        if(stateEnemy!=null){
-            stateEnemy.OnExit();
-        }
+        stateEnemy?.OnExit();
         stateEnemy = newState;
-        if(stateEnemy!=null){
-            stateEnemy.OnExit();
-        }
+        stateEnemy?.OnEnter();
     }
     public void MoveToPlayer(){
 
+    }
+    public void GetDame(float dame){
+        Heart -= dame;
     }
     private void OnDead(){
         QueueEnemy.Instance.addEnemy(this);
