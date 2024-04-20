@@ -38,7 +38,7 @@ public class Enemy : Character
         Debug.Log("Attack Player");
     }
     private bool checkPlayer(){
-        Collider2D check = Physics2D.OverlapCircle(transform.position, 2, LayerMask.GetMask("Player"));
+        Collider2D check = Physics2D.OverlapCircle(transform.position, 1, LayerMask.GetMask("Player"));
         return check != null;
     }
     public void GetDame(float dame){

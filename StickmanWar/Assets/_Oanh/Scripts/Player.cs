@@ -22,7 +22,7 @@ public class Player : Character
 
         if(Look.isLook){
             
-            transform.position = Vector3.MoveTowards(transform.position,targetPosition,Time.deltaTime*10f);
+            transform.position = Vector3.MoveTowards(transform.position,targetPosition,Time.deltaTime*20f);
         }else{
             transform.position = Vector3.MoveTowards(transform.position,targetPosition,Time.deltaTime*5f);
         }
@@ -36,13 +36,16 @@ public class Player : Character
         targetPosition = enemy.transform.position;
     }
 
-    
-    private void OnCollisionEnter2D(Collision2D other){
-        if(other.gameObject.tag.Equals("Enemy")){
-            Debug.Log("Oanh cham roi");
-            targetPosition = transform.position;
-            
+//     private void OnTriggerEnter2D(Collider2D other){
+//         Debug.Log("" + other.gameObject.tag);
+//    }
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if(col.gameObject.tag=="Enemy"){
+            Debug.Log("OnCollisionEnter2D");
+            targetPosition=transform.position;
         }
+        
     }
     
 }
