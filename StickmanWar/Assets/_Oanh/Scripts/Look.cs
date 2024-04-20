@@ -22,7 +22,7 @@ public class Look : MonoBehaviour
         Debug.Log(other.gameObject.tag);
         if(other.gameObject.tag.Equals("Enemy")){
             isLook = true;
-            Debug.Log("mi");
+            // Debug.Log("mi");
         }
     }
 }
