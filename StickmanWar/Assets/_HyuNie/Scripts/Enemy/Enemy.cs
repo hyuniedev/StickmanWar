@@ -6,8 +6,10 @@ public class Enemy : Character
 {
     private GameObject player;
     private State stateEnemy;
-    
+    public EDirec eDirec{get; set;}
+    public bool okGetDame{get; set;}
     private void OnEnable() {
+        okGetDame = true;
         changState(new StateMove(this));
     }
     private void Start() {
@@ -15,6 +17,7 @@ public class Enemy : Character
         GameController.Instance.SetDataCharacter(this);
         eCharacter = ECharacter.Enemy;
         changState(new StateMove(this));
+        okGetDame = true;
     }
     private void Update() {
         if(stateEnemy!=null) stateEnemy.OnExecute();
@@ -35,9 +38,8 @@ public class Enemy : Character
         Debug.Log("Attack Player");
     }
     private bool checkPlayer(){
-        Vector2 direction = player.transform.position - transform.position;
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, 1.2f,LayerMask.GetMask("Player"));
-        return hit.collider != null;
+        Collider2D check = Physics2D.OverlapCircle(transform.position, 2, LayerMask.GetMask("Player"));
+        return check != null;
     }
     public void GetDame(float dame){
         Heart -= dame;
