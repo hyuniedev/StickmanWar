@@ -17,16 +17,11 @@ public class Look : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(isLook);
-        if(Input.GetKeyDown(KeyCode.Space)){
-            isLook = true;
-        }
     }
     private void OnTriggerEnter2D(Collider2D other) {
         Debug.Log(other.gameObject.tag);
         if(other.gameObject.tag.Equals("Enemy")){
             isLook = true;
-            Debug.Log("HHH");
         }
     }
 }

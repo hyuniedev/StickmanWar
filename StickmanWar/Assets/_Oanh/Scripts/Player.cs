@@ -26,7 +26,7 @@ public class Player : Character
     
     public void moveToEnemy(){
         Debug.Log("GGG");
-        transform.position = enemy.transform.position;
+        targetPosition = enemy.transform.position;
     }
 
     
