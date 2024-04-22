@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using Random = UnityEngine.Random;
 public class EnemySystem : MonoBehaviour {
@@ -16,11 +13,12 @@ public class EnemySystem : MonoBehaviour {
     private static EnemySystem instance;
     public static EnemySystem Instance {
         get {
-            if (instance == null) {
-                instance = new EnemySystem();
-            }
             return instance;
         }
+    }
+    [SerializeField] private GameObject player;
+    private void Awake() {
+        instance = this;
     }
     private void Start() {
         InvokeRepeating(nameof(BornEnemy),2,3);
@@ -53,15 +51,15 @@ public class EnemySystem : MonoBehaviour {
         }
         return haveEnemyTarget?tmp.gameObject:null;
     }
+    private Enemy tmp;
     public GameObject getTargetEnemy() {
         float min = 1000;
-        Enemy tmp = new Enemy();
         bool haveEnemyTarget = false;
         Enemy[] enemies = FindObjectsOfType<Enemy>(false);
         foreach (var o in enemies)
         {
-            if(min>Vector3.Distance(Vector3.zero,o.gameObject.transform.position)){
-                min = Vector3.Distance(Vector3.zero,o.gameObject.transform.position);
+            if(min>Vector3.Distance(player.transform.position,o.gameObject.transform.position)){
+                min = Vector3.Distance(player.transform.position,o.gameObject.transform.position);
                 tmp = o;
                 haveEnemyTarget = true;
             }

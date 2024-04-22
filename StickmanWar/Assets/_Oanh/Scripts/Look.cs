@@ -25,4 +25,10 @@ public class Look : MonoBehaviour
             // Debug.Log("mi");
         }
     }
+    private void OnCollisionEnter2D(Collision2D other) {
+        Debug.Log("Co va cham");
+        if(other.gameObject.tag.Equals("Enemy")){
+            Debug.Log("Collider look with Enemy");
+        }
+    }
 }
