@@ -32,10 +32,6 @@ public class Enemy : Character
     {
         okGetDame = true;
         changState(new StateMove(this));
-        if (eDirec == EDirec.Left)
-            transform.localScale = new Vector3(1, 1, 0);
-        else
-            transform.localScale = new Vector3(-1, 1, 0);
         sliderHeart.maxValue = Heart;
     }
     private void Update()
