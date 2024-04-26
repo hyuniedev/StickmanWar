@@ -45,13 +45,13 @@ public class PlayerAuto : Character
     }
     public void setTargetToEnemy()
     {
-        target.position = enemy.transform.position;
+        Vector3 v3 = new Vector3(enemy.transform.position.x, enemy.transform.position.y, 0);
+        target.position = v3;
     }
     private float timeAttack = 0;
     public void AttackEnemy()
     {
-        Debug.Log("Attack Enemy");
-        if (timeAttack < 2)
+        if (timeAttack < 1)
         {
             timeAttack += Time.deltaTime;
         }
