@@ -10,16 +10,7 @@ public class PLStateAttack : IState
 
     public void OnExecute(PlayerAuto playerAuto)
     {
-        if (!playerAuto.checkEnemy())
-        {
-            playerAuto.MoveToEnemy();
-        }
-        else
-        {
-            playerAuto.target = playerAuto.transform;
-            playerAuto.AttackEnemy();
-        }
-
+        playerAuto.AttackEnemy();
     }
 
     public void OnExit(PlayerAuto playerAuto)
