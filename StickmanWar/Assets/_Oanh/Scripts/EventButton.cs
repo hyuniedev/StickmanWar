@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class EventButton: MonoBehaviour {
     [SerializeField] private Player player;
+    [SerializeField] private Table table;
     public Look lookRange;
     public void buttonMove_Left(){
         lookRange.transform.position = new Vector3(player.transform.position.x -3f, player.transform.position.y, player.transform.position.z);
@@ -22,5 +23,8 @@ public class EventButton: MonoBehaviour {
             player.move(2f);
         }   
         
+    }
+    public void buttonOnTable(){
+        table.gameObject.SetActive(!table.gameObject.activeSelf);
     }
 }
