@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemy : Character
 {
@@ -8,21 +10,27 @@ public class Enemy : Character
     private State stateEnemy;
     public EDirec eDirec { get; set; }
     public bool okGetDame { get; set; }
+    [SerializeField] private Slider sliderHeart;
     private void OnEnable()
     {
-        okGetDame = true;
-        changState(new StateMove(this));
+        OnInit();
     }
     private void Start()
     {
         player = FindObjectOfType<Player>().gameObject;
         GameController.Instance.SetDataCharacter(this);
         eCharacter = ECharacter.Enemy;
-        changState(new StateMove(this));
+        OnInit();
+    }
+    private void OnInit()
+    {
         okGetDame = true;
+        changState(new StateMove(this));
+        sliderHeart.maxValue = Heart;
     }
     private void Update()
     {
+        this.sliderHeart.value = Heart;
         if (stateEnemy != null) stateEnemy.OnExecute();
         if (Heart <= 0) OnDead();
         if (checkPlayer()) changState(new StateAttack(this));
@@ -39,9 +47,16 @@ public class Enemy : Character
         Vector3 target = new Vector3(player.transform.position.x, transform.position.y, 0);
         transform.position = Vector3.MoveTowards(transform.position, target, Time.deltaTime);
     }
+    float timeAttack;
     public void AttackPlayer()
     {
-        Debug.Log("Attack Player");
+        if (timeAttack < 5)
+        {
+            timeAttack = 0;
+            player.GetComponent<Player>().Heart -= Dame;
+        }
+        else
+            timeAttack += Time.deltaTime;
     }
     private bool checkPlayer()
     {

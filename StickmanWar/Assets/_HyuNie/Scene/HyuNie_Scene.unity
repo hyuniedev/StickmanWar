@@ -377,6 +377,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1011618994632435334, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011618994632435334, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011618994632435334, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929413940563429189, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929413940563429189, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3147845253341286280, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
       propertyPath: m_Name
       value: Enemy_Test (5)
@@ -396,6 +416,18 @@ PrefabInstance:
     - target: {fileID: 6640929261082242016, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
       propertyPath: m_Color.r
       value: 0.16591775
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446397597840218522, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446397597840218522, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446397597840218522, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -925,6 +957,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1011618994632435334, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011618994632435334, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011618994632435334, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929413940563429189, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929413940563429189, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3147845253341286280, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
       propertyPath: m_Name
       value: Enemy_Test (1)
@@ -944,6 +996,18 @@ PrefabInstance:
     - target: {fileID: 6640929261082242016, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
       propertyPath: m_Color.r
       value: 0.16591775
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446397597840218522, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446397597840218522, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446397597840218522, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -998,6 +1062,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1011618994632435334, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011618994632435334, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011618994632435334, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929413940563429189, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929413940563429189, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3147845253341286280, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
       propertyPath: m_Name
       value: Enemy_Test
@@ -1017,6 +1101,22 @@ PrefabInstance:
     - target: {fileID: 6640929261082242016, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
       propertyPath: m_Color.r
       value: 0.16591775
+      objectReference: {fileID: 0}
+    - target: {fileID: 7749913547153516518, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446397597840218522, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446397597840218522, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446397597840218522, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1448,6 +1548,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1011618994632435334, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011618994632435334, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011618994632435334, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929413940563429189, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929413940563429189, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3147845253341286280, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
       propertyPath: m_Name
       value: Enemy_Test (3)
@@ -1467,6 +1587,18 @@ PrefabInstance:
     - target: {fileID: 6640929261082242016, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
       propertyPath: m_Color.r
       value: 0.16591775
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446397597840218522, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446397597840218522, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446397597840218522, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1605,6 +1737,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1011618994632435334, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011618994632435334, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011618994632435334, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929413940563429189, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929413940563429189, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3147845253341286280, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
       propertyPath: m_Name
       value: Enemy_Test (4)
@@ -1625,11 +1777,129 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.16591775
       objectReference: {fileID: 0}
+    - target: {fileID: 8446397597840218522, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446397597840218522, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446397597840218522, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+--- !u!1 &2009815469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2009815470}
+  - component: {fileID: 2009815472}
+  - component: {fileID: 2009815471}
+  m_Layer: 3
+  m_Name: GameObjesprite\ct
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2009815470
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009815469}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 305424645}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2009815471
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009815469}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2f45133541e3b0b47b6c769837142fd1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!212 &2009815472
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009815469}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: dbfb7acd026387a47add5f09e5a9828c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.23, y: 3.19}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1001 &2076350778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1678,6 +1948,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1011618994632435334, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011618994632435334, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011618994632435334, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929413940563429189, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929413940563429189, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3147845253341286280, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
       propertyPath: m_Name
       value: Enemy_Test (2)
@@ -1697,6 +1987,18 @@ PrefabInstance:
     - target: {fileID: 6640929261082242016, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
       propertyPath: m_Color.r
       value: 0.16591775
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446397597840218522, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446397597840218522, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446397597840218522, guid: a62dec3604529bc4ab541b94628629a1, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1755,13 +2057,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5155423195665626954, guid: b53a68b8c9cdf2e43aad6e2272604e86, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7252244912201831459, guid: b53a68b8c9cdf2e43aad6e2272604e86, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3794967325494582970, guid: b53a68b8c9cdf2e43aad6e2272604e86, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2009815470}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53a68b8c9cdf2e43aad6e2272604e86, type: 3}
 --- !u!1660057539 &9223372036854775807
