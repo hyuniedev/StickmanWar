@@ -10,7 +10,13 @@ public class Enemy : Character
     private State stateEnemy;
     public EDirec eDirec { get; set; }
     public bool okGetDame { get; set; }
+    [SerializeField] private GameObject spriteAnim;
+    private Animator anim;
     [SerializeField] private Slider sliderHeart;
+    private void Awake()
+    {
+        anim = GetComponent<Animator>();
+    }
     private void OnEnable()
     {
         OnInit();
@@ -26,6 +32,10 @@ public class Enemy : Character
     {
         okGetDame = true;
         changState(new StateMove(this));
+        if (eDirec == EDirec.Left)
+            transform.localScale = new Vector3(1, 1, 0);
+        else
+            transform.localScale = new Vector3(-1, 1, 0);
         sliderHeart.maxValue = Heart;
     }
     private void Update()
