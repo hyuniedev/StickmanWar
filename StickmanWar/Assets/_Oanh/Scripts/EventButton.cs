@@ -25,7 +25,7 @@ public class EventButton: MonoBehaviour {
         }   
         
     }
-    public void buttonOnTable(){
-        table.gameObject.SetActive(!table.gameObject.activeSelf);
-    }
+    // public void buttonOnTable(){
+    //     table.gameObject.SetActive(!table.gameObject.activeSelf);
+    // }
 }

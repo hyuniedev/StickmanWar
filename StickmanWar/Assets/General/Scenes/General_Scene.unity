@@ -1277,9 +1277,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1571350783}
-        m_TargetAssemblyTypeName: EventButton, Assembly-CSharp
-        m_MethodName: buttonOnTable
+      - m_Target: {fileID: 1852290320}
+        m_TargetAssemblyTypeName: Table, Assembly-CSharp
+        m_MethodName: OnTable
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1494,7 +1494,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1245740823}
-  m_Father: {fileID: 1571350782}
+  m_Father: {fileID: 1852290319}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -1597,7 +1597,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 160946386}
-  - {fileID: 1510732151}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1716,6 +1715,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 608213800}
+  - {fileID: 1510732151}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1735,6 +1735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5f306378efc32f4bbb624b95612d4ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 608213803}
 --- !u!1 &2128852456
 GameObject:
   m_ObjectHideFlags: 0
